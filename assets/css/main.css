@@ -609,7 +609,7 @@
 			-ms-pointer-events: none;
 			pointer-events: none;
 			/*background-image: url("../../images/overlay.png");*/
-			background-color: rgba(19, 21, 25, 0.5);
+			/*background-color: rgba(19, 21, 25, 0.5);*/
 			border-radius: 4px;
 			content: '';
 			display: block;
@@ -1578,7 +1578,7 @@
 	}
 
 	#projects ul:last-of-type {
-		padding-bottom: 15px;
+		padding-bottom: 24px;
 	}
 
 	.resume {
@@ -1611,10 +1611,13 @@
 
 	.major-icons {
 		flex-wrap: wrap;
+		width: 510px;
+		display: flex;
+		justify-content: center;
 	}
 
 	.major-icons li {
-		font-size: 57px;
+		font-size: 60px;
 	}
 
 	.schools {
@@ -1623,12 +1626,10 @@
 
 	.schools li:first-of-type {
 		display: flex;
-		/*align-items: center;*/
 	}
 
 	.schools li:last-of-type {
 		display: flex;
-		/*align-items: center;*/
 		padding-top: 27px;
 	}
 
